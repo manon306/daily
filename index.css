@@ -1,0 +1,80 @@
+.container-fluid{
+    background-color: #333;
+}
+h1{
+    width: 100%;
+    padding: 10px;
+    height: 60px;
+    color: rgb(15, 125, 215);
+    text-align: center;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+.x1{
+    width: 600px;
+    padding: 20px;
+    position: relative;
+    left: 30%;
+    button{
+        margin-bottom: 30px;
+    }
+    tbody{
+        color: aliceblue;
+    }
+    div,div2{
+        width: 50px;
+        height: 50px;
+        border: 3px solid white;
+        border-radius: 50%;
+        text-align: center;
+    }
+    
+}
+.x2{
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    .card{
+        background-color: #545454;
+        width: 18rem !important;
+        padding: 0;
+        overflow: hidden;
+    }
+    a{
+        text-decoration: none;
+        color: cadetblue;
+    }
+    .card-img{
+        height: 250px;
+        transform: scale(1);
+        transition: transform 0.5s ease-in-out;
+    }
+    .card-img:hover{
+        transform: scale(1.1);
+    }
+}
+form{
+    input{
+        position: relative;
+        left: 40%;
+    }
+}
+.div-x{
+        width: 300px;
+        position: relative;
+        left: 40%;
+        background-color: #878787;
+        color: brown;
+    }
+    #motivational-message{
+        position: relative;
+        text-align: center;
+        padding: 20px;
+        background-color: rgb(120, 8, 88);
+        color: white;
+    }
+    .h{
+        font-size: 50px;
+    }
